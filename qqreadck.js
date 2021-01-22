@@ -35,8 +35,8 @@ if (
       `[${jsname}] 获取时长header: 成功,qqreadtimeheaderVal: ${qqreadtimeheaderVal}`
     );
     $.msg(jsname, `qqreadtimehd${jbid}: 获取时长header: 成功🎉`, ``);
-  }
-  if ($request &&$request.body.indexOf("succ_C")>=0&&$request.body.indexOf("get_C")>=0){
+  } 
+  else if ($request &&$request.body.indexOf("succ_C")>=0&&$request.body.indexOf("get_C")>=0){
     const qqreadbodyVal = $request.body;
     if (qqreadbodyVal) $.setdata(qqreadbodyVal, "qqreadbd"+jbid);
     $.log(
