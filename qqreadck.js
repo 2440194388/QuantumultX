@@ -47,7 +47,7 @@ if (
 
     } 
 $.log(
-      `[${jsname}] &$request.body`
+      `[${jsname}] $request.body`
     );
 }
 // prettier-ignore
