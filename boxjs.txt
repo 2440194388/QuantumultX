@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/jiuli12/Script/main/jiuli_zq.boxjs.json
+https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sunert.boxjs.json
+https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json
+https://raw.githubusercontent.com/photonmang/quantumultX/master/photonmang.boxjs.json
+https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/ziye.boxjs.json
