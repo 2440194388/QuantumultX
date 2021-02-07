@@ -35,7 +35,7 @@ if (
     );
     $.msg(jsname, `qqreadtimehd${jbid}: 获取时长header: 成功🎉`, ``);
   } 
-  if ($request &&$request.body.indexOf("read_C")>=0&&$request.body.indexOf("unit_C")>=0){
+  if ($request &&$request.body.indexOf("bookStore")>=0&&$request.body.indexOf("onShow")>=0){
     const qqreadbodyVal = $request.body;
     if (qqreadbodyVal) $.setdata(qqreadbodyVal, "qqreadbd"+jbid);
     $.log(
